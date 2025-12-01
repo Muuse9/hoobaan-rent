@@ -1,0 +1,14 @@
+{
+    "name": "user/homeland",
+    "description": "composer init",
+    "autoload": {
+        "psr-4": {
+            "User\\Homeland\\": "src/"
+        }
+    },
+    "require": {
+        "google/apiclient": "^2.15.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

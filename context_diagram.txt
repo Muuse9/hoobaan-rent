@@ -1,0 +1,172 @@
+                    +-------------------+
+                    |                   |
+                    |  User Management  |
+                    |                   |
+                    +-------------------+
+                           ↑
+                           |
+                           |
++-------------+     +-------------------+     +-------------+
+|             |     |                   |     |             |
+|    Users    |---->|  Property         |---->|    Admin    |
+|             |     |  Management       |     |             |
++-------------+     +-------------------+     +-------------+
+                           ↑
+                           |
+                           |
+                    +-------------------+
+                    |                   |
+                    |    Database       |
+                    |                   |
+                    +-------------------+ 
+
+[External Entities]
+- Users (Buyers, Sellers, Renters)
+- Admin
+- Database
+- Payment System
+
+[Main System]
+Homeland Real Estate Management System
+
+[Data Flows]
+1. User → System:
+   - Property search requests
+   - User registration/login
+   | Property inquiries
+   | Contact information
+
+2. System → User:
+   - Property listings
+   - Search results
+   - Property details
+   - Confirmation messages
+
+3. Admin → System:
+   - Property management
+   - User management
+   - System configuration
+
+4. System → Admin:
+   - User reports
+   - Property statistics
+   - System status
+
+5. System ↔ Database:
+   - Property data
+   - User data
+   - Transaction data
+
+6. System ↔ Payment System:
+   - Payment processing
+   - Transaction records 
+
+   [Processes]
+1. User Management
+   - Registration
+   - Authentication
+   - Profile management
+
+2. Property Management
+   - Property listing
+   - Property search
+   - Property details
+   - Property categories (Sale/Rent)
+
+3. Search and Filter
+   - Price filtering
+   - Location search
+   - Property type filtering
+   - Advanced search
+
+4. Contact and Inquiry
+   - Contact form processing
+   - Inquiry management
+   - Communication handling
+
+5. Admin Dashboard
+   - User management
+   - Property management
+   - System monitoring
+   - Report generation
+
+[Data Stores]
+1. User Database
+2. Property Database
+3. Transaction Database
+4. Contact Database
+
+[External Entities]
+- Users
+- Admin
+- Payment System
+
+[Sub-processes]
+1. Property Listing
+   - Add new property
+   - Update property details
+   - Delete property
+   - Property status management
+
+2. Property Search
+   - Basic search
+   - Advanced search
+   - Filter by price
+   - Filter by location
+   - Filter by property type
+
+3. Property Details
+   - View property information
+   - View property images
+   - View property location
+   - View property history
+
+4. Property Categories
+   - Sale properties
+   - Rent properties
+   - Leased properties
+   - Featured properties
+
+   [Sub-processes]
+1. Registration
+   - User information collection
+   - Email verification
+   - Account creation
+
+2. Authentication
+   - Login verification
+   - Password management
+   - Session handling
+
+3. Profile Management
+   - Update profile
+   - View profile
+   - Manage preferences
+   - Manage saved properties
+   Key Features to Include in Diagrams:
+Property Management:
+Sale properties
+Rent properties
+Property details
+Property search
+Price filtering
+User Features:
+User registration/login
+Profile management
+Property inquiries
+Contact system
+Admin Features:
+User management
+Property management
+System configuration
+Report generation
+Search and Filter:
+Price-based search
+Location-based search
+Property type filtering
+Advanced search options
+Communication:
+Contact form
+Inquiry system
+Email notifications
+User feedback
